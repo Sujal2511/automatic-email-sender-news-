@@ -6,10 +6,10 @@ def send_email(message):
     host = "smtp.gmail.com"
     port = 465
 
-    username = "sujal1125012004@gmail.com"
+    username = "yourgmail.com"
     password = "sgpo dhni apng azzy"   # <-- App Password, not your real Gmail password
 
-    receiver = "sujal1125012004@gmail.com"
+    receiver = "whereyouwantosend@gmail.com"
     context = ssl.create_default_context()
 
     # Wrap message in MIMEText with UTF-8 encoding
