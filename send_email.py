@@ -7,7 +7,7 @@ def send_email(message):
     port = 465
 
     username = "yourgmail.com"
-    password = "sgpo dhni apng azzy"   # <-- App Password, not your real Gmail password
+    password = "your-app-password"   # <-- App Password, not your real Gmail password
 
     receiver = "whereyouwantosend@gmail.com"
     context = ssl.create_default_context()
